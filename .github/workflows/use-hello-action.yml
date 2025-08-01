@@ -16,6 +16,6 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Use Hello Name Composite Action
-        uses: Sonu-001/Repo1/.github/actions/Greet@main
+        uses: Sonu-001/Repo1/greet-action@main
         with:
           name: ${{ github.event.inputs.name }}
