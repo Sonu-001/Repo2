@@ -12,7 +12,7 @@ jobs:
             - name: Run ASP Net Scan
               uses: Sonu-001/Repo1/AspNetVersionScan@main
               with:
-                urls: |
+                urls: 
                     https://oral-b.co.in/en-in
                     https://oralb.com.br/pt-br
                     https://oralb.co.kr
