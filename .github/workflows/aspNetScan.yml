@@ -4,7 +4,7 @@ on:
 
 jobs:
     scanning:
-        runs-on: ubuntu-latest
+        runs-on: windows-latest
         steps:
             - name: CHeckout Repo
               uses: actions/checkout@v4
