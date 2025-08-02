@@ -1,0 +1,16 @@
+name: "Github Environment Variables"
+on:
+  workflow_dispatch:
+
+jobs:
+  get-env:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Get environment variables
+        uses: Sonu-001/Repo1/github-env@main
+        with:
+          repo: "Repo1"
+          env-name: "dev"
