@@ -15,3 +15,9 @@ jobs:
           repo: "Repo1"
           env_name: "dev"
           gh_token: ${{ secrets.GH_TOKEN }}
+
+      - name: Upload environment variables
+        uses: actions/upload-artifact@v4
+        with:
+            name: env_var
+            path: env_var.json    
