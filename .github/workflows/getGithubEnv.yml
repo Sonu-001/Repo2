@@ -12,8 +12,8 @@ jobs:
       - name: Get environment variables
         uses: Sonu-001/Repo1/github-env@main
         with:
-          repo: "Repo1"
-          env_name: "dev"
+          repo: "demofile"
+          env_name: "development"
           gh_token: ${{ secrets.GH_TOKEN }}
 
       - name: Upload environment variables
