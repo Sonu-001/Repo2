@@ -13,4 +13,4 @@ jobs:
         uses: Sonu-001/Repo1/github-env@main
         with:
           repo: "Repo1"
-          env-name: "dev"
+          env_name: "dev"
