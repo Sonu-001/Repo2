@@ -14,3 +14,4 @@ jobs:
         with:
           repo: "Repo1"
           env_name: "dev"
+          gh_token: ${{ secrets.GH_TOKEN }}
