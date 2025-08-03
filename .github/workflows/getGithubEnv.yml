@@ -14,7 +14,7 @@ jobs:
         with:
           repo: "procter-gamble/mw-mt-always-en-gb"
           gh_token: ${{ secrets.GH_TOKEN }}
-          env_name: |
+          env_name:
             mw-mt-always-en-gb-development
             mw-mt-always-en-gb-staging
 
