@@ -14,7 +14,9 @@ jobs:
         with:
           gh_token: ${{ secrets.GH_TOKEN }}
           repo: "procter-gamble/mw-mt-always-en-gb"
-          envs: "mw-mt-always-en-gb-development,mw-mt-always-en-gb-staging"
+          envs: |
+            mw-mt-always-en-gb-development
+            mw-mt-always-en-gb-staging
 
       - name: Upload environment variables
         uses: actions/upload-artifact@v4
