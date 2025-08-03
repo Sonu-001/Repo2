@@ -13,7 +13,7 @@ jobs:
         uses: Sonu-001/Repo1/github-env@feature/update
         with:
           repo: "procter-gamble/mw-mt-always-en-gb"
-          env_name: "mw-mt-always-en-gb-development"
+          env_name: "mw-mt-always-en-gb-development mw-mt-always-en-gb-staging"
           gh_token: ${{ secrets.GH_TOKEN }}
 
       - name: Upload environment variables
