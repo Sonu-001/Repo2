@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Get environment variables
-        uses: Sonu-001/Repo1/github-env@main
+        uses: Sonu-001/Repo1/github-env@feature/update
         with:
           repo: "procter-gamble/mw-mt-always-en-gb"
           env_name: "mw-mt-always-en-gb-development"
